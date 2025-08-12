@@ -7,3 +7,29 @@ output.mp3
 PLAN.md
 requirements.full.txt
 .cursorignore
+gradio.log
+gradio.pid
+.gradio/certificate.pem
+
+# Archivos de entorno y secretos
+.env
+*.env
+env.txt
+
+# Archivos de log
+*.log
+
+# Archivos temporales y de ejecución
+*.pid
+*.mp3
+
+# Configuración local
+.gradio/
+.cursorrignore
+
+# Archivos de dependencias bloqueadas
+requirements.lock.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
