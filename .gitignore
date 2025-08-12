@@ -1,4 +1,9 @@
-
 .env
 config
 rules
+.venv
+.gradio
+output.mp3
+PLAN.md
+requirements.full.txt
+.cursorignore
