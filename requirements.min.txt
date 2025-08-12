@@ -1,0 +1,7 @@
+# Requisitos mínimos para este proyecto
+# Instalar con: pip install -r requirements.min.txt
+
+elevenlabs==2.9.2
+gradio==4.44.1
+python-dotenv==1.1.1
+audioop-lts>=0.2.2; python_version >= "3.13"

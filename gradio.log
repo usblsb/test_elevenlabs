@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/Shared/test_elevenlabs/elevenlabs_test.py", line 372, in <module>
+    with gr.Blocks(title="Conversor Texto a Voz - ElevenLabs", show_api=False) as interface:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Shared/test_elevenlabs/.venv/lib/python3.13/site-packages/gradio/blocks.py", line 1259, in __init__
+    super().__init__(render=False, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BlockContext.__init__() got an unexpected keyword argument 'show_api'
